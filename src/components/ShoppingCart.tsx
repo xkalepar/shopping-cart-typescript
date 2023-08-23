@@ -11,8 +11,8 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
   const { closeCart, cartItems } = useShoppingCart();
   return (
     <div
-      className={` transition-all fixed z-50 h-screen w-full sm:w-[80%] lg:w-1/2 bg-slate-300 full top-0 right-0 ${
-        isOpen ? "right-0" : "-right-[100%]"
+      className={`transition-all fixed z-50 h-screen w-full sm:w-[80%] lg:w-1/2 bg-slate-300 full top-0 right-0 ${
+        isOpen ? "right-0" : "right-[-100%]"
       }`}>
       <h2
         className=" 
